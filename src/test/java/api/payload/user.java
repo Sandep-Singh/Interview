@@ -2,12 +2,12 @@ package api.payload;
 
 public class user {
 	int id;
-	 String username;
+	String username;
 	  String firstName;
 	  String lastName;
-	  String email;
+	  String emailaddress;
 	  String password;
-	  String phone;
+	  String phonenumber;
 	  int  userStatus=0;
 	  
 	  
@@ -35,11 +35,11 @@ public class user {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getEmail() {
-		return email;
+	public String getEmailaddress() {
+		return emailaddress;
 	}
-	public void setEmail(String email) {
-		this.email = email;
+	public void setEmailaddress(String emailaddress) {
+		this.emailaddress = emailaddress;
 	}
 	public String getPassword() {
 		return password;
@@ -47,11 +47,11 @@ public class user {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public String getPhone() {
-		return phone;
+	public String getPhonenumber() {
+		return phonenumber;
 	}
-	public void setPhone(String phone) {
-		this.phone = phone;
+	public void setPhonenumber(String phonenumber) {
+		this.phonenumber = phonenumber;
 	}
 	public int getUserStatus() {
 		return userStatus;
@@ -59,5 +59,8 @@ public class user {
 	public void setUserStatus(int userStatus) {
 		this.userStatus = userStatus;
 	}
-
+	
+	  
+	  
+	 
 }
